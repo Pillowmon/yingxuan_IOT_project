@@ -180,12 +180,19 @@ if (buttonState == HIGH && lastButtonState==LOW){
 
 ## How it works:
 When clicked, display shows numbers looping from 0-9. Press and hold has also been accounted for and will only be counted once.
+
 ![VID1 GIF](https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/417f1ad3-f6cf-4e01-81cd-cda83d3dc9bf)
 
+
+
 While the physical display only shows 0-9, these are actually only the ones digit. We can see the entire value in the serial monitor. When button has been pressed, it is also shown there.
+
 ![VID_2](https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/182e4411-c5e1-4577-8fdf-d24cc677af95)
 
+
+
 Last but not least, the realtime database! There we can see the total accumulated clicks. Button state indicates whether button was clicked, this also updates in real time.
+
 ![vid3 gif](https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/0f3456da-3c46-4350-941a-5fdf2bb60c1e)
 
 
