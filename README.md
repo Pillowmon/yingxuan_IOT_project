@@ -1,14 +1,17 @@
 # DIY counter using ESP32-C3-DevKitM-1 & Google Firebase
-### A project by ying xuan (1006960)
+### Counter3000, a project by ying xuan (1006960)
 
-<img align="right" src="https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/da82462a-1d83-424f-999f-cf353e0ef945" width="840" height="650">
+<img align="center" src="https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/da82462a-1d83-424f-999f-cf353e0ef945" width="840" height="650">
 
-#Demo video:
+
+
+
+# Demo video
 https://www.youtube.com/watch?v=XL4i-CkvWfU
 
 
 
-
+# Material list
 | Components Required |
 | ------       |
 | ESP32-C3-DevKitM-1 x1|
@@ -181,7 +184,7 @@ if (buttonState == HIGH && lastButtonState==LOW){
 
 ```
 
-## How it works:
+# How it works
 When clicked, display shows numbers looping from 0-9. Press and hold has also been accounted for and will only be counted once.
 
 ![VID1 GIF](https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/417f1ad3-f6cf-4e01-81cd-cda83d3dc9bf)
@@ -197,6 +200,15 @@ While the physical display only shows 0-9, these are actually only the ones digi
 Last but not least, the realtime database! There we can see the total accumulated clicks. Button state indicates whether button was clicked, this also updates in real time.
 
 ![vid3 gif](https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/0f3456da-3c46-4350-941a-5fdf2bb60c1e)
+
+
+
+# Future improvements (Things to work on if there was more time)
+- Add additional 5161AS or use 4 digit seven segment display to display larger numbers on the physical set up
+- Add a button for reseting counter
+- Add a way to change increment (ie. each click +2 instead of +1) without having to change the codes
+- Better cable managment
+- Other ways to represent Tens/hundreds digit, eg using different LED colors? 
 
 
 
