@@ -5,7 +5,6 @@
 
 
 
-
 # Demo video
 https://www.youtube.com/watch?v=XL4i-CkvWfU
 
@@ -210,6 +209,9 @@ Last but not least, the realtime database! There we can see the total accumulate
 - Better cable managment
 - Other ways to represent Tens/hundreds digit, eg using different LED colors? 
 
+
+# Novelty of prject
+100% customisable, choose your own intervals, get to track the value on the database in realtime!!
 
 
 ## Reference 🙏🙏🙏🙏
