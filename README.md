@@ -3,6 +3,9 @@
 
 <img align="right" src="https://github.com/Pillowmon/yingxuan_IOT_project/assets/160840085/da82462a-1d83-424f-999f-cf353e0ef945" width="840" height="650">
 
+#Demo video:
+https://www.youtube.com/watch?v=XL4i-CkvWfU
+
 
 
 
